@@ -283,6 +283,7 @@ footer ul li{margin-bottom:6px}
 /* Trio spotlight */
 .trio-grid{display:grid;gap:26px;max-width:860px;margin:0 auto}
 @media(min-width:760px){.trio-grid{grid-template-columns:1fr 1fr}}
+.trio-grid.trio-single{grid-template-columns:1fr;max-width:760px}
 .trio-photo{
   border:4px solid var(--yellow);border-radius:var(--radius);overflow:hidden;
   box-shadow:var(--shadow);background:var(--char-2);transform:rotate(1deg);
