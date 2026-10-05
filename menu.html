@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fake Menu — Roasted, Vernon BC</title>
+<meta name="description" content="The completely fictional menu of Roasted, Vernon's imaginary cannabis store. Parody. Nothing is for sale. 19+.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 19+ age gate (funny edition) -->
+<div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-card">
+    <div id="age-question">
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1 id="age-title">Are you 19 or older? (No cops.)</h1>
+      <p>This is a parody site for grown-ups. Nothing here is real.</p>
+      <div class="age-btns">
+        <button class="btn btn-yes" id="age-yes" type="button">Yeah, I'm 19+</button>
+        <button class="btn btn-no" id="age-no" type="button">I'm a narc</button>
+      </div>
+    </div>
+    <div id="age-denied" hidden>
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1>Busted!</h1>
+      <p>Come back when you're 19, man.</p>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Roasted logo">
+      <span>ROASTED</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Fake Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="visit.html" class="nav-cta">Visit Us (Don't)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>The <span class="red">Fake Menu</span></h2>
+        <p>Our complete lineup of premium products that don't exist. Prices are in imaginary dollars.</p>
+      </div>
+
+      <div class="notice reveal">
+        🛑 Nothing here is real and nothing is for sale. This menu is 100% fiction — that's the joke. If you try to buy any of this, Brad will just stare at you.
+      </div>
+
+      <div class="menu-cat reveal" id="flower">
+        <span class="emoji">🌿</span>
+        <div>
+          <h2>Flower</h2>
+          <div class="fake-product"><strong>Brad's Couch-Lock Supreme</strong> <span class="price">$4.20/g</span><p>Guaranteed to glue you to any couch manufactured after 1998. Side effects include texting your ex about "the good old days."</p></div>
+          <div class="fake-product"><strong>Vernon Morning Fog</strong> <span class="price">$4.19/g</span><p>Tastes like lake air and poor decisions. Pairs well with cancelling your plans.</p></div>
+          <div class="fake-product"><strong>Mystery Nugs of Questionable Origin</strong> <span class="price">$3.99/g</span><p>We found them. That's all we'll say. That's all <em>anyone</em> will say.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="hash-concentrates">
+        <span class="emoji">💎</span>
+        <div>
+          <h2>Hash &amp; Concentrates</h2>
+          <div class="fake-product"><strong>Mystery Hash of Destiny</strong> <span class="price">$6.66/g</span><p>One puff and you'll finally understand your taxes. Two puffs and you'll forget why you were doing them.</p></div>
+          <div class="fake-product"><strong>Shatterday Night Special</strong> <span class="price">$5.55/g</span><p>For when Friday wasn't enough and Sunday is a problem for Future You.</p></div>
+          <span class="instore">For experienced imaginary consumers only.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="pre-rolls">
+        <span class="emoji">🌀</span>
+        <div>
+          <h2>Pre-Rolls</h2>
+          <div class="fake-product"><strong>Pre-Rolls (Rolled by Brad)</strong> <span class="price">$4.20 each</span><p>Licked by nobody. Brad wears gloves now. There was an incident. We don't talk about the incident.</p></div>
+          <div class="fake-product"><strong>The "I Swear It's My First Time" Single</strong> <span class="price">$4.20 each</span><p>Sure it is, champ. Sure it is.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="edibles">
+        <span class="emoji">🍬</span>
+        <div>
+          <h2>Edibles</h2>
+          <div class="fake-product"><strong>Gummies That Taste Like Regret (the good kind)</strong> <span class="price">$8.88</span><p>Start with one. Wait two hours. Do NOT eat the whole bag because "nothing's happening," Kevin.</p></div>
+          <div class="fake-product"><strong>Brownies of Consequences</strong> <span class="price">$9.99</span><p>Start with a corner. Trust us. The brownie knows what it did.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="beverages">
+        <span class="emoji">🥤</span>
+        <div>
+          <h2>Beverages</h2>
+          <div class="fake-product"><strong>Sparkling Water of Mild Confusion</strong> <span class="price">$4.20</span><p>Is it working? Is it? You tell us. That's the fun part.</p></div>
+          <div class="fake-product"><strong>The "Is This Working Yet?" Soda</strong> <span class="price">$4.20</span><p>By the time you finish reading this sentence, yes.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="vapes">
+        <span class="emoji">💨</span>
+        <div>
+          <h2>Vapes</h2>
+          <div class="fake-product"><strong>Discreet Pen of Questionable Choices</strong> <span class="price">$42.00</span><p>So discreet, even <em>you</em> won't remember where you put it.</p></div>
+          <div class="fake-product"><strong>The Vape That Looks Like a USB Stick</strong> <span class="price">$42.00</span><p>It's not a USB stick, Brenda. Stop plugging it into your laptop.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="topicals">
+        <span class="emoji">🧴</span>
+        <div>
+          <h2>Topicals</h2>
+          <div class="fake-product"><strong>Brad's Elbow Grease Balm</strong> <span class="price">$13.37</span><p>For external use. For internal giggles, see edibles. Do not eat the balm, Brad. We've talked about this.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+
+      <div class="menu-cat reveal" id="pipes-accessories">
+        <span class="emoji">🛠️</span>
+        <div>
+          <h2>Pipes &amp; Accessories</h2>
+          <div class="fake-product"><strong>The Pipe of Destiny</strong> <span class="price">$69.00</span><p>It's just a pipe. But it's <em>your</em> pipe. That's what makes it destiny.</p></div>
+          <div class="fake-product"><strong>Grinder? I Barely Know Her</strong> <span class="price">$24.20</span><p>Our best-selling grinder, mostly because of the name. Brad laughs every time someone buys one. Every. Time.</p></div>
+          <span class="instore">Full imaginary menu available at our imaginary store.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <img src="logo.jpg" alt="Roasted logo">
+          <span>ROASTED</span>
+        </div>
+        <p style="color:var(--muted);font-size:.92rem">Vernon's finest imaginary cannabis store.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Fake Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit Us (Don't)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The Fine Print</h4>
+        <ul>
+          <li style="color:var(--cream-dim);font-size:.92rem">Vernon, BC (allegedly)</li>
+          <li style="color:var(--cream-dim);font-size:.92rem">19+ only &middot; No cops</li>
+        </ul>
+      </div>
+    </div>
+    <div class="compliance">
+      <p><strong>Roasted is a parody site made for laughs. Not a real store. Nothing is actually for sale.</strong></p>
+      <p>For use by adults 19+. Keep out of reach of children. Please consume responsibly. Do not drive while impaired.</p>
+      <p>&copy; 2026 Roasted (imaginary), Vernon BC. All rights reserved. All wrongs also reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
