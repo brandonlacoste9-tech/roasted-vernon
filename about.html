@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Roasted, Vernon BC</title>
+<meta name="description" content="The completely made-up legend of Brad and Roasted, Vernon's imaginary cannabis store. Parody. 19+.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 19+ age gate (funny edition) -->
+<div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-card">
+    <div id="age-question">
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1 id="age-title">Are you 19 or older? (No cops.)</h1>
+      <p>This is a parody site for grown-ups. Nothing here is real.</p>
+      <div class="age-btns">
+        <button class="btn btn-yes" id="age-yes" type="button">Yeah, I'm 19+</button>
+        <button class="btn btn-no" id="age-no" type="button">I'm a narc</button>
+      </div>
+    </div>
+    <div id="age-denied" hidden>
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1>Busted!</h1>
+      <p>Come back when you're 19, man.</p>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Roasted logo">
+      <span>ROASTED</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Fake Menu</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="visit.html" class="nav-cta">Visit Us (Don't)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>The Legend of <span class="red">Brad</span></h2>
+        <p>A totally true story.* <em>(*Not true.)</em></p>
+      </div>
+
+      <div class="trio-grid">
+        <div class="trio-photo reveal">
+          <img src="brad-2.jpg" alt="Brad, founder of the imaginary Roasted">
+          <span class="trio-label">Brad — Founder, CEO, Janitor</span>
+        </div>
+        <div class="trio-photo reveal">
+          <img src="logo.jpg" alt="Brad's two business partners, cartoon duo">
+          <span class="trio-label">The Board of Directors</span>
+        </div>
+      </div>
+
+      <div class="prose reveal" style="margin-top:32px">
+        <p>Legend has it that Brad founded Roasted in the year 20-never, after a dream in which a talking beaver told him Vernon needed "a fake weed store, eh." He woke up, wrote the business plan on a napkin, then ate the napkin. The rest is history. <strong>Fictional history.</strong></p>
+        <p>Today, Brad runs the place alongside his two silent partners — silent because they're cartoons, and cartoons can't talk. Probably for the best. Their entire job is standing on the logo looking cool, and honestly? They're crushing it.</p>
+        <p>Brad's philosophy is simple: <strong>life's short, laugh often, and never trust a grinder you didn't name yourself.</strong> He personally taste-tests nothing (it's all imaginary, Brad — put the brownie down), quality-controls everything (by staring at it), and greets every customer like an old friend (there are no customers).</p>
+        <p>Come as you are. Leave slightly more confused, in the best way. <strong>Stay toasty, Vernon.</strong></p>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar reveal">
+          <div class="emoji">🏠</div>
+          <h3>Fictionally local</h3>
+          <p>An independent Vernon shop that exists exclusively on this website. Your imaginary dollars stay in the imaginary North Okanagan.</p>
+        </div>
+        <div class="pillar reveal">
+          <div class="emoji">🤝</div>
+          <h3>Zero-pressure shopping</h3>
+          <p>Browse at your own pace. Our staff will never upsell you, mostly because our staff is a cartoon beanie guy.</p>
+        </div>
+        <div class="pillar reveal">
+          <div class="emoji">💬</div>
+          <h3>Questions welcome</h3>
+          <p>Ask Brad anything. He'll answer confidently whether he knows the answer or not. It's the Roasted guarantee.* <em>(*Not a guarantee.)</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <img src="logo.jpg" alt="Roasted logo">
+          <span>ROASTED</span>
+        </div>
+        <p style="color:var(--muted);font-size:.92rem">Vernon's finest imaginary cannabis store.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Fake Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit Us (Don't)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The Fine Print</h4>
+        <ul>
+          <li style="color:var(--cream-dim);font-size:.92rem">Vernon, BC (allegedly)</li>
+          <li style="color:var(--cream-dim);font-size:.92rem">19+ only &middot; No cops</li>
+        </ul>
+      </div>
+    </div>
+    <div class="compliance">
+      <p><strong>Roasted is a parody site made for laughs. Not a real store. Nothing is actually for sale.</strong></p>
+      <p>For use by adults 19+. Keep out of reach of children. Please consume responsibly. Do not drive while impaired.</p>
+      <p>&copy; 2026 Roasted (imaginary), Vernon BC. All rights reserved. All wrongs also reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
