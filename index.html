@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roasted — Vernon's Finest Imaginary Cannabis Store</title>
+<meta name="description" content="Roasted is a parody site made for laughs. Not a real store. Nothing is actually for sale. 19+.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 19+ age gate (funny edition) -->
+<div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-card">
+    <div id="age-question">
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1 id="age-title">Are you 19 or older? (No cops.)</h1>
+      <p>This is a parody site for grown-ups. Nothing here is real.</p>
+      <div class="age-btns">
+        <button class="btn btn-yes" id="age-yes" type="button">Yeah, I'm 19+</button>
+        <button class="btn btn-no" id="age-no" type="button">I'm a narc</button>
+      </div>
+    </div>
+    <div id="age-denied" hidden>
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1>Busted!</h1>
+      <p>Come back when you're 19, man.</p>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Roasted logo">
+      <span>ROASTED</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Fake Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="visit.html" class="nav-cta">Visit Us (Don't)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <img class="hero-logo" src="logo.jpg" alt="Roasted — cartoon duo logo">
+      <span class="kicker">Vernon, BC &middot; 100% Parody &middot; 0% Real</span>
+      <h1>ROASTED</h1>
+      <p class="lede">Vernon's finest imaginary cannabis store. Totally real* and absolutely legitimate.* <em>(*Not real. Not legitimate. It's a joke, man.)</em></p>
+      <div class="hero-btns">
+        <a class="btn btn-primary" href="menu.html">Browse the Fake Menu</a>
+        <a class="btn btn-ghost" href="about.html">Meet Brad</a>
+      </div>
+      <div class="dave-box">
+        <button class="btn btn-dave" id="dave-btn" type="button">🔊 Dave's not here, man</button>
+        <audio id="dave-audio" src="daves-not-here.mp3" preload="auto"></audio>
+      </div>
+    </div>
+  </section>
+
+  <section class="spot">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>Meet the <span class="red">trio</span></h2>
+        <p>The dream team behind Vernon's most fictional dispensary.</p>
+      </div>
+      <div class="trio-grid">
+        <div class="trio-photo reveal">
+          <img src="brad-2.jpg" alt="Brad, founder of the imaginary Roasted">
+          <span class="trio-label">Brad — Founder, CEO, Janitor</span>
+        </div>
+        <div class="trio-photo reveal">
+          <img src="logo.jpg" alt="Brad's two business partners, cartoon duo">
+          <span class="trio-label">The Board of Directors</span>
+        </div>
+      </div>
+      <div class="prose reveal" style="margin-top:28px">
+        <p><strong>Brad</strong> (left, real human) runs the place alongside his two silent partners (right, extremely cartoon). Together they've built Vernon's most successful cannabis store that doesn't exist. <a href="about.html" style="color:var(--yellow);font-weight:800">Read the legend →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>What's on the <span class="red">imaginary shelves</span></h2>
+        <p>Eight categories of premium fictional cannabis. Remember: none of this is real, and that's the whole point.</p>
+      </div>
+      <div class="grid cats">
+        <a class="card reveal" href="menu.html#flower"><span class="emoji">🌿</span><h3>Flower</h3><p>Brad's Couch-Lock Supreme and other strains that don't exist.</p></a>
+        <a class="card reveal" href="menu.html#hash-concentrates"><span class="emoji">💎</span><h3>Hash &amp; Concentrates</h3><p>Featuring the legendary Mystery Hash of Destiny.</p></a>
+        <a class="card reveal" href="menu.html#pre-rolls"><span class="emoji">🌀</span><h3>Pre-Rolls</h3><p>Rolled by Brad. Licked by nobody. He wears gloves now.</p></a>
+        <a class="card reveal" href="menu.html#edibles"><span class="emoji">🍬</span><h3>Edibles</h3><p>Gummies that taste like regret (the good kind).</p></a>
+        <a class="card reveal" href="menu.html#beverages"><span class="emoji">🥤</span><h3>Beverages</h3><p>Sparkling water of mild confusion.</p></a>
+        <a class="card reveal" href="menu.html#vapes"><span class="emoji">💨</span><h3>Vapes</h3><p>Discreet. Suspiciously USB-shaped. It's not, Brenda.</p></a>
+        <a class="card reveal" href="menu.html#topicals"><span class="emoji">🧴</span><h3>Topicals</h3><p>Brad's Elbow Grease Balm. For external use only.</p></a>
+        <a class="card reveal" href="menu.html#pipes-accessories"><span class="emoji">🛠️</span><h3>Pipes &amp; Accessories</h3><p>The Pipe of Destiny. Grinder? We barely know her.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:0">
+    <div class="wrap">
+      <div class="visit-teaser reveal">
+        <h2>Get roasted, Vernon.</h2>
+        <p>Come visit us at our beautiful imaginary storefront. Stay toasty. (Please don't actually come — there's nothing here. It's a parody, man.)</p>
+        <a class="btn btn-primary" href="visit.html" style="background:var(--char);color:var(--yellow)">Plan Your Fake Visit</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <img src="logo.jpg" alt="Roasted logo">
+          <span>ROASTED</span>
+        </div>
+        <p style="color:var(--muted);font-size:.92rem">Vernon's finest imaginary cannabis store.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Fake Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit Us (Don't)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The Fine Print</h4>
+        <ul>
+          <li style="color:var(--cream-dim);font-size:.92rem">Vernon, BC (allegedly)</li>
+          <li style="color:var(--cream-dim);font-size:.92rem">19+ only &middot; No cops</li>
+        </ul>
+      </div>
+    </div>
+    <div class="compliance">
+      <p><strong>Roasted is a parody site made for laughs. Not a real store. Nothing is actually for sale.</strong></p>
+      <p>For use by adults 19+. Keep out of reach of children. Please consume responsibly. Do not drive while impaired.</p>
+      <p>&copy; 2026 Roasted (imaginary), Vernon BC. All rights reserved. All wrongs also reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
