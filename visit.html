@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit Us (Don't) — Roasted, Vernon BC</title>
+<meta name="description" content="How to find Roasted's imaginary storefront in Vernon, BC. Spoiler: you can't. It's a parody. 19+.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 19+ age gate (funny edition) -->
+<div id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-card">
+    <div id="age-question">
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1 id="age-title">Are you 19 or older? (No cops.)</h1>
+      <p>This is a parody site for grown-ups. Nothing here is real.</p>
+      <div class="age-btns">
+        <button class="btn btn-yes" id="age-yes" type="button">Yeah, I'm 19+</button>
+        <button class="btn btn-no" id="age-no" type="button">I'm a narc</button>
+      </div>
+    </div>
+    <div id="age-denied" hidden>
+      <img src="logo.jpg" alt="Roasted logo">
+      <h1>Busted!</h1>
+      <p>Come back when you're 19, man.</p>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <nav class="nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Roasted logo">
+      <span>ROASTED</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Fake Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="visit.html" class="nav-cta active">Visit Us (Don't)</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>Come visit <span class="red">(please don't)</span></h2>
+        <p>Our beautiful imaginary storefront awaits. Theoretically.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card reveal">
+          <div class="emoji">📍</div>
+          <h3>Location</h3>
+          <p>Somewhere in Vernon, BC.<br>Follow the smell of patchouli<br>and broken dreams.</p>
+        </div>
+        <div class="info-card reveal">
+          <div class="emoji">🕐</div>
+          <h3>Hours</h3>
+          <p>Open whenever Brad wakes up.<br>Closed during hockey.<br>Closed during naps.<br>So… call ahead. (Don't.)</p>
+        </div>
+        <div class="info-card reveal">
+          <div class="emoji">📞</div>
+          <h3>Contact</h3>
+          <p>1-800-NOT-REAL<br>Brad's cell: Nice try.<br>Email: daves-not-here@roasted.fake</p>
+        </div>
+      </div>
+
+      <div class="map-note reveal">
+        <h3 style="font-family:var(--font-display);color:var(--yellow);margin-bottom:10px">🗺️ Finding us</h3>
+        <p>Head to Vernon. Drive around looking confident. When you see a building that <em>feels</em> like it could be a fake weed store — that's the one. (It's not. None of them are. It's a parody, man.)</p>
+      </div>
+
+      <div class="prose reveal" style="margin-top:36px;text-align:center">
+        <p><strong>First visit?</strong> Bring ID (19+, no exceptions, even in our imagination), bring questions, and bring snacks — for after. You know. <em>Theoretically.</em></p>
+        <p style="margin-top:16px"><a class="btn btn-primary" href="menu.html">Browse the Fake Menu First</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <img src="logo.jpg" alt="Roasted logo">
+          <span>ROASTED</span>
+        </div>
+        <p style="color:var(--muted);font-size:.92rem">Vernon's finest imaginary cannabis store.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Fake Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit Us (Don't)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The Fine Print</h4>
+        <ul>
+          <li style="color:var(--cream-dim);font-size:.92rem">Vernon, BC (allegedly)</li>
+          <li style="color:var(--cream-dim);font-size:.92rem">19+ only &middot; No cops</li>
+        </ul>
+      </div>
+    </div>
+    <div class="compliance">
+      <p><strong>Roasted is a parody site made for laughs. Not a real store. Nothing is actually for sale.</strong></p>
+      <p>For use by adults 19+. Keep out of reach of children. Please consume responsibly. Do not drive while impaired.</p>
+      <p>&copy; 2026 Roasted (imaginary), Vernon BC. All rights reserved. All wrongs also reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
